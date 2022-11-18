@@ -13,7 +13,7 @@ Please read the rules before pressing the "Continue" button.
 
 ![quiz rules screenshot](assets/images/quiz-rules.png)
 
-https://allstarcoding777.github.io/challenge-3/
+https://allstarcoding777.github.io/beginner-coding-quiz/
 
 ## License
 
