@@ -1,1 +1,1 @@
-# challenge-4-code-quiz
+# beginner-coding-code-quiz
