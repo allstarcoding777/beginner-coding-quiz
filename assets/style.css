@@ -1,5 +1,4 @@
 .hidden{
-    /* visibility: hidden; */
     display: none;
 }
 
@@ -7,16 +6,18 @@ body{
     background: rgb(56, 115, 135);
 }
 
-.start-button, 
-.rules-box,
-.quiz-box,
-.result-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 4px 8px 0 darkslategray(0,0,0,0.2),
-                0px 6px 20px 0 darkslategray(0,0,0,0.19);
+body h1 {color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 85vh;
 }
 
 .start-button button{
@@ -35,9 +36,6 @@ body{
     width: 540px;
     background: white;
     border-radius: 5px;
-    /* opacity: 0; */
-    pointer-events: none;
-    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .rules-box .rules-title{
@@ -112,9 +110,6 @@ body{
     width: 550px;
     background: white;
     border-radius: 5px;
-    /* opacity: 0; */
-    pointer-events: none;
-    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .quiz-box header {
@@ -239,7 +234,6 @@ section .option-list .option:last-child{
 
 .quiz-box footer{
     height: 60px;
-    width:100%;
     padding: 0 30px;
     display: flex;
     align-items: center;
@@ -284,14 +278,10 @@ footer .next-button:hover{
     width: 450px;
     padding: 25px 30px;
     border-radius: 5px;
-    display: flex;
     text-align: center;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    opacity: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .result-box .icon{
