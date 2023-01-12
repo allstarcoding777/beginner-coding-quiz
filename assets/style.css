@@ -263,7 +263,6 @@ footer .next-button{
     outline: none;
     color: white;
     background: rgb(56, 115, 135);
-    /* border-radius: 5px; */
     border: 1px solid rgb(56, 115, 135);
     cursor: pointer;
     transition: all 0.3s ease;
