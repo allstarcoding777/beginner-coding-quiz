@@ -325,3 +325,19 @@ footer .next-button:hover{
     transition: all 0.3s ease;
 }
 
+/* mobile responsive */
+@media screen and (max-width: 900px){
+    body h1 {
+        font-size: 45px;
+    }
+    .rules-box{
+        width: auto
+    }
+    .quiz-box{
+        width: auto;
+    }
+    .result-box{
+        width: auto;
+    }
+}
+
